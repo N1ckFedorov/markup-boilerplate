@@ -1,0 +1,34 @@
+/**
+ * Bootstrap
+ */
+@import './variables';
+@import '../../vendor/bootstrap/bootstrap';
+
+/**
+  * Mixins
+  */
+@import '../../mixins/scss/sprite-img';
+@import '../../mixins/scss/sprite-svg';
+@import '../../mixins/scss/pos-center';
+@import '../../mixins/scss/pos-strech';
+@import '../../mixins/scss/letter-spacing';
+@import '../../mixins/scss/gradient';
+@import '../../mixins/scss/font-face';
+
+/**
+  * Base
+  */
+@import './fonts';
+@import './base';
+@import './typography';
+@import './png-icons';
+
+/**
+  * Components
+  */
+@import '../../components/components';
+
+/**
+  * Vendor styles
+  */
+@import '../../vendor/vendor';

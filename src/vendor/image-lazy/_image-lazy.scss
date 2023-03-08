@@ -1,0 +1,8 @@
+.image-lazy {
+	display: inline-block;
+	transition: filter 0.3s ease;
+
+	&:not(.is-loaded) {
+		filter: blur(10px);
+	}
+}
