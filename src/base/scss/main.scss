@@ -24,9 +24,20 @@
 @import './png-icons';
 
 /**
+  * Layouts
+  */
+@import '../../layouts/layouts';
+
+/**
   * Components
   */
+
 @import '../../components/components';
+
+/**
+  * Elements
+  */
+@import '../../elements/elements';
 
 /**
   * Vendor styles

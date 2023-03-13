@@ -28,7 +28,7 @@ module.exports = function () {
 							render: {
 								scss: {
 									dest: '../../../src/mixins/scss/_sprite-svg.scss',
-									template: 'src/templates/scss/_sprite_svg_template.sass'
+									template: 'src/mixins/scss/_sprite_svg_template.scss'
 								}
 							}
 						}
